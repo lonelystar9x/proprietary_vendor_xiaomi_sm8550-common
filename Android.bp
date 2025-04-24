@@ -21579,6 +21579,15 @@ dex_import {
 }
 
 dex_import {
+    name: "camerax-vendor-extensions",
+    owner: "xiaomi",
+    jars: [
+        "proprietary/system_ext/framework/camerax-vendor-extensions.jar",
+    ],
+    system_ext_specific: true,
+}
+
+dex_import {
     name: "com.qualcomm.qti.imscmservice-V2.0-java",
     owner: "xiaomi",
     jars: [
