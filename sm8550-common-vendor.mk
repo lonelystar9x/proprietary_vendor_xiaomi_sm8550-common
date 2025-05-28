@@ -1252,6 +1252,7 @@ PRODUCT_PACKAGES += \
     qwesd \
     rmt_storage \
     sensors.qti \
+    shsusrd \
     sscrpcd \
     ssgqmigd \
     ssgtzd \
