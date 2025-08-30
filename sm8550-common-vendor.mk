@@ -1184,6 +1184,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     QtiTelephony \
     ims \
+    qcrilmsgtunnel \
     androidx.camera.extensions.impl \
     uimgbalibrary \
     uimgbamanagerlibrary \
@@ -1192,6 +1193,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.imscmservice-V2.0-java \
     com.qualcomm.qti.imscmservice-V2.1-java \
     com.qualcomm.qti.imscmservice-V2.2-java \
+    mirilhook \
     qcrilhook \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.ims.callcapability-V1.0-java \
