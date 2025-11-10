@@ -583,6 +583,7 @@ PRODUCT_PACKAGES += \
     libintervmipc \
     libizat_client_api \
     libizat_core \
+    libjnihelper \
     libkcl \
     libkernelmanager \
     libkeymasterdeviceutils \
