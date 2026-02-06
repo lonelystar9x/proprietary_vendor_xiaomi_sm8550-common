@@ -144,6 +144,12 @@ function configure_memory_parameters() {
 	configure_zram_parameters
 	configure_read_ahead_kb_values
 
+	# modify watermark_scale_factor
+	ProductName=`getprop ro.product.device`
+	if [ "$ProductName" == "sheng" ]; then
+		echo 10 > /proc/sys/vm/watermark_scale_factor
+	fi
+
 	# Disable periodic kcompactd wakeups. We do not use THP, so having many
 	# huge pages is not as necessary.
 	echo 0 > /proc/sys/vm/compaction_proactiveness
