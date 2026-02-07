@@ -1050,7 +1050,6 @@ PRODUCT_PACKAGES += \
     libqccdme \
     libqccfileservice \
     vendor.qti.ImsRtpService-V1-ndk \
-    vendor.qti.ImsRtpService-V2-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.qccsyshal@1.1 \
